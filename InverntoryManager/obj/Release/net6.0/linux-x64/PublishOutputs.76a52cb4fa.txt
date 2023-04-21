@@ -1,0 +1,7 @@
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\InverntoryManager.deps.json
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\InverntoryManager.runtimeconfig.json
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\InverntoryManager.pdb
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\InverntoryManager.dll

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "uJG/LUWb6Bd7ADdXKfLqtp93TphyY39jHQqFHgbe8vi1YJwvmxIhdI9+JHTog5DYTejce8s+yuMhnNAOct2IgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dkarpov\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.6.0\\amazon.lambda.apigatewayevents.2.6.0.nupkg.sha512",
+    "C:\\Users\\dkarpov\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\dkarpov\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.1\\amazon.lambda.serialization.systemtextjson.2.3.1.nupkg.sha512",
+    "C:\\Users\\dkarpov\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.2\\microsoft.netcore.app.crossgen2.win-x64.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InverntoryManager", "InverntoryManager.csproj", "{49F3853D-6B93-4E1D-9FCD-6B49459514BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49F3853D-6B93-4E1D-9FCD-6B49459514BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F3853D-6B93-4E1D-9FCD-6B49459514BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F3853D-6B93-4E1D-9FCD-6B49459514BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F3853D-6B93-4E1D-9FCD-6B49459514BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0737DB58-2B40-4E90-8A9B-F8098FB22FE1}
+	EndGlobalSection
+EndGlobal
