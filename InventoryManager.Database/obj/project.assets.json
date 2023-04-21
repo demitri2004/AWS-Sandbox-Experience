@@ -129,11 +129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj",
-      "projectName": "InverntoryManager",
-      "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj",
+      "projectUniqueName": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\InventoryManager.Database.csproj",
+      "projectName": "InventoryManager.Database",
+      "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\InventoryManager.Database.csproj",
       "packagesPath": "C:\\Users\\dkarpov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\obj\\",
+      "outputPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dkarpov\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y0fmris/tFqxICk8qWC0Eh1WedQLkF0PHPr46I/qSE+EJCg+d7nnuV1z2x3NmjHQxK4jy5GdWZk5ekof88a8gw==",
+  "dgSpecHash": "WVLjA25HJuUWFh0UypY5WeQhipi1rfkiOlh5S2GQNIByEunVDTldGZRuyOZNNjqyQzJ68tbLhAk16VYJs3EWnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj",
+  "projectFilePath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\InventoryManager.Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dkarpov\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.6.0\\amazon.lambda.apigatewayevents.2.6.0.nupkg.sha512",
     "C:\\Users\\dkarpov\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",

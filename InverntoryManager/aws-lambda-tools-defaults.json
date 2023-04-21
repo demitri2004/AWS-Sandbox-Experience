@@ -6,7 +6,7 @@
         "dotnet lambda help",
         "All the command line options for the Lambda command can be specified in this file."
     ],
-    "profile"     : "",
+    "profile"     : "Sandbox Profile",
     "region"      : "us-east-2",
     "configuration" : "Release",
     "s3-prefix"     : "InverntoryManager/",
@@ -14,6 +14,8 @@
     "template-parameters" : "",
     "framework"           : "net6.0",
     "function-architecture" : "x86_64",
-    "output-package"        : "C:\\Users\\dkarpov\\AppData\\Local\\Temp\\Get-CodeUri-Or-ImageUri-638176068872375781.zip",
-    "disable-version-check" : false
+    "output-package"        : "C:\\Users\\dkarpov\\AppData\\Local\\Temp\\Get-CodeUri-Or-ImageUri-638176925619221367.zip",
+    "disable-version-check" : false,
+    "s3-bucket"             : "inventory-manager-bucket-20230420",
+    "stack-name"            : "InventoryManager"
 }

@@ -1,14 +1,3 @@
-What I learned with tis project: (https://www.youtube.com/watch?v=6_Q3Nr2AFJE&t=234s)
-1. Created user with Admin permissions, generated security key for the user.
-2. Created aws profile in VS AWS Toolkit, to be able to see aws services in VS, added keys to profile
-3. Created VS project from AWS Serverless Application(.NET Core) template
-4. aws-lambda-tools-default.json has info where to deploy the app (profile is important!)
-5. serverless.template is for CloudFormation to build our Lambda function in aws
-6. Created S3 bucket and deployed app via cmd aws command
-7. Deployment process pushed the app to S3 bucket and using CloudFormation file built Lambda Function from the app
-
-
-
 # Empty AWS Serverless Application Project
 
 This starter project consists of:
@@ -42,13 +31,13 @@ If already installed check if new version is available.
 
 Execute unit tests
 ```
-    cd "InverntoryManager/test/InverntoryManager.Tests"
+    cd "InventoryManager.Database/test/InventoryManager.Database.Tests"
     dotnet test
 ```
 
 Deploy application
 ```
-    cd "InverntoryManager/src/InverntoryManager"
+    cd "InventoryManager.Database/src/InventoryManager.Database"
     dotnet lambda deploy-serverless
 ```
 ## Arm64
