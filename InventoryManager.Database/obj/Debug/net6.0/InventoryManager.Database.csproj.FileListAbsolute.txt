@@ -1,0 +1,5 @@
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Database\obj\Debug\net6.0\InventoryManager.Database.csproj.AssemblyReference.cache
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Database\obj\Debug\net6.0\InventoryManager.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Database\obj\Debug\net6.0\InventoryManager.Database.AssemblyInfoInputs.cache
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Database\obj\Debug\net6.0\InventoryManager.Database.AssemblyInfo.cs
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Database\obj\Debug\net6.0\InventoryManager.Database.csproj.CoreCompileInputs.cache
