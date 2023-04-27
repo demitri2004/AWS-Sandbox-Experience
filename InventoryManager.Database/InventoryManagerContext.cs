@@ -10,7 +10,7 @@ namespace InventoryManager.Database
 {
     public class InventoryManagerContext : DbContext
     {
-        public virtual DbSet<Pallet>? Pallets { get; set; }
+        public virtual DbSet<Pallet> Pallets { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -19,13 +19,26 @@ namespace InventoryManager.Database
                 return;
             }
 
-            var connectionString = "server=inventorymanagerresoources-database-pp3u8n5ppeqe.cnqozcbfsyxv.us-east-2.rds.amazonaws.com; user=yourusername; password=youruserpassword; database=InventoryManagerDB";
-
-            var serverVersion = new MySqlServerVersion(new Version(10, 4, 27));
-
-            optionsBuilder.UseMySql(connectionString, serverVersion);
+            optionsBuilder.UseMySQL("server=inventorymanagerresoources-database-pp3u8n5ppeqe.cnqozcbfsyxv.us-east-2.rds.amazonaws.com; user=yourusername; password=youruserpassword; database=InventoryManagerDB");
             base.OnConfiguring(optionsBuilder);
         }
-       
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    base.OnModelCreating(modelBuilder);
+
+        //    modelBuilder.Entity<Publisher>(entity =>
+        //    {
+        //        entity.HasKey(e => e.ID);
+        //        entity.Property(e => e.Name).IsRequired();
+        //    });
+
+        //    modelBuilder.Entity<Book>(entity =>
+        //    {
+        //        entity.HasKey(e => e.ISBN);
+        //        entity.Property(e => e.Title).IsRequired();
+        //        entity.HasOne(d => d.Publisher)
+        //          .WithMany(p => p.Books);
+        //    });
+        //}
     }
 }

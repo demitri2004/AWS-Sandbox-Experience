@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InventoryManager.Database.Models
 {
-    internal class Size
+    public class Size
     {
         public int Id { get; set; }
         public int Width { get; set; }

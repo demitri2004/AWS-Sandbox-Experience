@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InventoryManager.Database
 {
-    internal class Pallet
+    public class Pallet
     {
         public int Id { get; set; }
         public virtual Size Size { get; set; }
