@@ -9,20 +9,27 @@
         "Architectures": [
           "x86_64"
         ],
-        "Handler": "InverntoryManager::InverntoryManager.Functions::Get",
+        "Handler": "InverntoryManager::InverntoryManager.GetPalletFunction::GetPallet",
         "Runtime": "dotnet6",
         "CodeUri": "",
         "MemorySize": 256,
         "Timeout": 30,
         "Role": null,
         "Policies": [
-          "AWSLambdaBasicExecutionRole"
+          "AWSLambdaBasicExecutionRole", "AWSLambdaVPCAccessExecutionRole"
         ],
+        "VpcConfig": {
+            "SecurityGroupIds": [{ "Fn::ImportValue": "InventoryManagerSecurityGroup" }],
+            "SubnetIds": [
+                { "Fn::ImportValue": "InventoryManagerFirstSubnet" },
+                { "Fn::ImportValue": "InventoryManagerSecondSubnet" }
+            ]
+        },
         "Events": {
           "RootGet": {
             "Type": "Api",
             "Properties": {
-              "Path": "/",
+              "Path": "/GetPallet/{palletId}",
               "Method": "GET"
             }
           }

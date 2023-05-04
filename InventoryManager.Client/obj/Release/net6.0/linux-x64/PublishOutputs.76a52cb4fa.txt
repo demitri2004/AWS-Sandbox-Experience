@@ -1,0 +1,4 @@
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\InventoryManager.Client.dll
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\InventoryManager.Client.deps.json
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\InventoryManager.Client.runtimeconfig.json
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InverntoryManager\bin\Release\net6.0\publish\InventoryManager.Client.pdb

@@ -14,7 +14,7 @@
     "template-parameters" : "",
     "framework"           : "net6.0",
     "function-architecture" : "x86_64",
-    "output-package"        : "C:\\Users\\dkarpov\\AppData\\Local\\Temp\\Get-CodeUri-Or-ImageUri-638176925619221367.zip",
+    "output-package"        : "C:\\Users\\dkarpov\\AppData\\Local\\Temp\\Get-CodeUri-Or-ImageUri-638183706711836228.zip",
     "disable-version-check" : false,
     "s3-bucket"             : "inventory-manager-bucket-20230420",
     "stack-name"            : "InventoryManager"

@@ -1,0 +1,14 @@
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\bin\Release\net6.0\InventoryManager.Client.deps.json
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\bin\Release\net6.0\InventoryManager.Client.runtimeconfig.json
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\bin\Release\net6.0\InventoryManager.Client.dll
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\bin\Release\net6.0\InventoryManager.Client.pdb
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\obj\Release\net6.0\InventoryManager.Client.csproj.AssemblyReference.cache
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\obj\Release\net6.0\InventoryManager.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\obj\Release\net6.0\InventoryManager.Client.AssemblyInfoInputs.cache
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\obj\Release\net6.0\InventoryManager.Client.AssemblyInfo.cs
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\obj\Release\net6.0\InventoryManager.Client.csproj.CoreCompileInputs.cache
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\obj\Release\net6.0\InventoryManager.Client.dll
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\obj\Release\net6.0\refint\InventoryManager.Client.dll
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\obj\Release\net6.0\InventoryManager.Client.pdb
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\obj\Release\net6.0\InventoryManager.Client.genruntimeconfig.cache
+C:\Users\dkarpov\development\AWS-Sandbox-Experience\InventoryManager.Client\obj\Release\net6.0\ref\InventoryManager.Client.dll

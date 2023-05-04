@@ -9,6 +9,13 @@
             "BucketName": "inventory-manager-bucket-20230420"
         }
     },
+    "DBSubnetGroup": {
+        "Type": "AWS::RDS::DBSubnetGroup",
+        "Properties": {
+            "DBSubnetGroupDescription": "Inventory Manager DB subnet group",
+            "SubnetIds": [{ "Ref": "SubnetA"}, { "Ref": "SubnetB" }]
+        }
+    },
     "Database": {
         "Type" : "AWS::RDS::DBInstance",
         "Properties" : {
@@ -16,9 +23,66 @@
              "AllocatedStorage" : "20",
              "Engine" : "mysql",
              "PubliclyAccessible" : true,
+             "DBSubnetGroupName": { "Ref" : "DBSubnetGroup" },
+             "VPCSecurityGroups": [{ "Ref": "SecurityGroup" }],
              "MasterUsername" : "yourusername",
              "MasterUserPassword" : "youruserpassword"
         }
-       }
+    },
+    "VPC": {
+        "Type": "AWS::EC2::VPC",
+        "Properties": {
+            "CidrBlock": "10.0.0.0/16"
+        }
+    },
+    "SubnetA": {
+        "Type" : "AWS::EC2::Subnet",
+         "Properties" : {
+          "AvailabilityZone" : "us-east-2a",
+          "CidrBlock" : "10.0.0.0/24",
+          "VpcId" : { "Ref": "VPC" }
+        }
+    },
+    "SubnetB": {
+        "Type" : "AWS::EC2::Subnet",
+         "Properties" : {
+          "AvailabilityZone" : "us-east-2b",
+          "CidrBlock" : "10.0.1.0/24",
+          "VpcId" : { "Ref": "VPC" }
+        }
+    },
+    "SecurityGroup": {
+          "Type" : "AWS::EC2::SecurityGroup",
+          "Properties" : {
+              "GroupDescription" : "Security group for inventory manager stack",
+              "GroupName" : "InventoryManagerSecurityGroup",
+              "SecurityGroupEgress" : [{
+                "IpProtocol": "-1",
+                "CidrIp": "0.0.0.0/0"
+              }],
+              "SecurityGroupIngress" : [{
+                "IpProtocol": "-1",
+                "CidrIp": "0.0.0.0/0"
+              }],
+              "VpcId" : { "Ref": "VPC" }
+            }
+        }
+  },
+  "Outputs": {
+    "InventoryManagerFirstSubnet": {
+        "Description": "The Inventory Mannager first subnet",
+        "Value": { "Ref": "SubnetA" },
+        "Export": { "Name": "InventoryManagerFirstSubnet" }
+    },
+    "InventoryManagerSecondSubnet": {
+        "Description": "The Inventory Mannager second subnet",
+        "Value": { "Ref": "SubnetB" },
+        "Export": { "Name": "InventoryManagerSecondSubnet" }
+    },
+    "InventoryManagerSecurityGroup": {
+        "Description": "The Inventory Mannager security group",
+        "Value": { "Ref": "SecurityGroup" },
+        "Export": { "Name": "InventoryManagerSecurityGroup" }
+    }
   }
 }
