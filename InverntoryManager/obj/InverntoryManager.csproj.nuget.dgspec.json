@@ -4,14 +4,139 @@
     "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj": {
+    "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.BLL\\InventoryManager.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj",
-        "projectName": "InverntoryManager",
-        "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj",
+        "projectUniqueName": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.BLL\\InventoryManager.BLL.csproj",
+        "projectName": "InventoryManager.BLL",
+        "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.BLL\\InventoryManager.BLL.csproj",
         "packagesPath": "C:\\Users\\dkarpov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\obj\\",
+        "outputPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dkarpov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Client\\InventoryManager.Client.csproj": {
+                "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Client\\InventoryManager.Client.csproj"
+              },
+              "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\InventoryManager.Database.csproj": {
+                "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\InventoryManager.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Client\\InventoryManager.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Client\\InventoryManager.Client.csproj",
+        "projectName": "InventoryManager.Client",
+        "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Client\\InventoryManager.Client.csproj",
+        "packagesPath": "C:\\Users\\dkarpov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dkarpov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\InventoryManager.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\InventoryManager.Database.csproj",
+        "projectName": "InventoryManager.Database",
+        "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\InventoryManager.Database.csproj",
+        "packagesPath": "C:\\Users\\dkarpov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dkarpov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +176,22 @@
             "Amazon.Lambda.Serialization.SystemTextJson": {
               "target": "Package",
               "version": "[2.3.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
             }
           },
           "imports": [
@@ -65,7 +206,15 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[6.0.2, 6.0.2]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[6.0.2, 6.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
               "version": "[6.0.2, 6.0.2]"
             }
           ],
@@ -75,6 +224,109 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj",
+        "projectName": "InverntoryManager",
+        "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\InverntoryManager.csproj",
+        "packagesPath": "C:\\Users\\dkarpov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InverntoryManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dkarpov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.BLL\\InventoryManager.BLL.csproj": {
+                "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.BLL\\InventoryManager.BLL.csproj"
+              },
+              "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\InventoryManager.Database.csproj": {
+                "projectPath": "C:\\Users\\dkarpov\\development\\AWS-Sandbox-Experience\\InventoryManager.Database\\InventoryManager.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.Serialization.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[6.0.2, 6.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[6.0.2, 6.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[6.0.2, 6.0.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
