@@ -16,7 +16,7 @@ namespace MySqlEFCoreTest
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=my-first-mysql-database.cnqozcbfsyxv.us-east-2.rds.amazonaws.com;database=library;user=admin;password=Test$1234");
+            optionsBuilder.UseMySQL("server=my-first-mysql-database.cnqozcbfsyxv.us-east-2.rds.amazonaws.com;database=library;user=;password=");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
