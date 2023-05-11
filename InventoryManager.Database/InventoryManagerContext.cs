@@ -19,7 +19,7 @@ namespace InventoryManager.Database
                 return;
             }
 
-            optionsBuilder.UseMySQL("server=inventorymanagerresoources-database-pp3u8n5ppeqe.cnqozcbfsyxv.us-east-2.rds.amazonaws.com; user=yourusername; password=youruserpassword; database=InventoryManagerDB");
+            optionsBuilder.UseMySQL("server=inventorymanagerresoources-database-pp3u8n5ppeqe.cnqozcbfsyxv.us-east-2.rds.amazonaws.com; user=; password=; database=InventoryManagerDB");
             base.OnConfiguring(optionsBuilder);
         }
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
