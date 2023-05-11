@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_beanstalk", "WebAPI_beanstalk.csproj", "{67D02417-324D-49D2-9092-796C14BB6F0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67D02417-324D-49D2-9092-796C14BB6F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D02417-324D-49D2-9092-796C14BB6F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D02417-324D-49D2-9092-796C14BB6F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D02417-324D-49D2-9092-796C14BB6F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBA716EE-B3EA-49AF-BF25-4AB0C5124AE3}
+	EndGlobalSection
+EndGlobal

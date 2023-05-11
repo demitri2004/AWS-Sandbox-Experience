@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bZj8BMH/DN7Uk4gwVxcYRWhpXKwKqvJdNpM2IV2/ZHw=",
+  "Source": "WebAPI_beanstalk",
+  "BasePath": "_content/WebAPI_beanstalk",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
