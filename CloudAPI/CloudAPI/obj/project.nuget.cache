@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "YdmVNCIKx7Cm1ZvDLmUmh/8ZHRF+upXcvBEoPILqYYKUWPtezfndQiaI/AFm2kNXyXGYdhu2lsbFzFJY+32DRA==",
+  "success": true,
+  "projectFilePath": "/Users/nadiakarpov/Projects/git/AWS-Sandbox-Experience/CloudAPI/CloudAPI/CloudAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/nadiakarpov/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/nadiakarpov/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/nadiakarpov/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/nadiakarpov/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/nadiakarpov/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/nadiakarpov/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
